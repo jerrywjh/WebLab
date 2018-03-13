@@ -12,4 +12,4 @@
 - W3School中文版 http://www.w3school.com.cn/
 - W3School英文官网： https://www.w3schools.com/
 - MDN Web Docs  https://developer.mozilla.org/zh-CN/   这是一个非常专业的Web前端技术的文档集合，有各个语言的版本。
-- 各个语言的官网。 官网文档基本都可以秒杀市面上99%的书籍。
+- 各个语言的官网。比如Jsp, Pyhon, PHP, Go语言的官网文档。 官网文档基本都可以秒杀市面上99%的书籍。
