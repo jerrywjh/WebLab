@@ -26,9 +26,9 @@ Web开发分为前端(Browser side)和后端(Server side）两个部分。 其�
 
 目前官方JDK最新的版本是JDK18. 但18这个版本是个临时的版本，半年后就过期了。JDK17是Long-Term-Support的版本，因此建议使用JDK17.
 
-#### 下载地址:   https://www.oracle.com/java/technologies/downloads/#jdk17-windows  
+#### 下载地址: https://www.oracle.com/java/technologies/downloads/#java17 
 
-下载那个Installer或是MSI Installer就可以，下载后安装即可.
+下载那个Windows 版本的Installer或是MSI Installer就可以，下载后安装即可.
 
 **注意**:  JDK18缺省的安装路径是C:\Program Files\Java\jdk-18.  当然安装到其他路径也可以，但需要记住具体的安装位置，因为后面配置其他软件的时候需要选择JDK的所在的目录。
 
