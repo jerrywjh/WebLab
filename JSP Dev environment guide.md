@@ -16,7 +16,7 @@ Web开发分为前端(Browser side)和后端(Server side）两个部分。 其�
 
 **说明如下:**
 1. 这个教程适用于Windows下的开发环境，不是服务端的部署环境。
-1. 没有涉及J2EE方面的内容，仅适用于JSP的初学者。
+1. 不涉及J2EE方面各种复杂的框架，面向JSP的初学者。
 
  ## 第一步: 安装JDK 
 
@@ -59,4 +59,17 @@ JSP需要运行在一个Web服务器的环境中，具体说，需要一个JSP/S
 * 也可以运行安装目录中的脚本/批处理文件来启停服务.  startup.bat  shutdown.bat
 
 
-## 第三步： 
+## 第三步： 安装Eclipse
+
+#### 版本：Eclipse最新版 2022-03
+#### 下载地址: https://www.eclipse.org/downloads/
+
+**注意**：Eclipse是个通用的IDE，对于JSP开发来说，选择Eclipse IDE for Enterprise and Web Developers的版本。
+
+点击 **Download Packages** -> 选择**Eclipse IDE for Enterprise Java and Web Developers.** -> **Windows x86_64**
+
+下载完毕后，解压缩到一个目录下，就可以直接用了。 一般来讲，可以解压缩到c: \ ,  c:\Program files, 或是个人的用户目录下。
+
+解压缩后运行Eclipse,  开始会提示你设置Workspace, 这个一般建议放到个人的用户主目录下面。
+
+
