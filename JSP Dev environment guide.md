@@ -71,3 +71,29 @@ JSP需要运行在一个Web服务器的环境中，具体说，需要一个JSP/S
 1. 解压缩后运行Eclipse,  开始会提示你设置Workspace, 这个一般建议放到个人的用户主目录下面。
 
 
+## 第四步： 安装MySQL服务
+
+### 版本： MySQL Community Server 8.0
+下载地址：https://dev.mysql.com/downloads/mysql/
+点击那个"MySQL Installer for Windows", 进入下载页面，然后选择那个大的文件下载( mysql-installer-community-8.0.xx.x.msi).
+
+**注意**：
+1. 不要去下载那些Enterprise, cloud, cluster的版本，是收费的！要下载MySQL Community server.
+2. Oracle的网站和产品设计都非常反人类，要仔细操作。这种公司...。
+3. 安装过程中,除了MySQL Server服务外，把MySQL Workbench + MySQL Connector/J (JDBC)  一起安装上去
+4. 安装MySQL serve的时候，选择Developer Default (或者Development computer模式) 。
+5. 需要设置root用户的密码。
+
+安装完毕后，可以启动MySQL Workbench来连接数据库，如果能用root用户+密码可以正常连接数据库，说明数据库服务已经正常运行。也可以在Windows服务中查看和管理MySQL 服务的状态。
+
+
+## 其他
+
+### 为Web project引入MySQL Driver
+
+把mysql-connector-java-8.xxxx.jar 文件copy到 webapp/WEB-INF/lib目录下就可以了
+
+* 缺省情况下，Mysql connector的jar文件安装在 c:\Program Files(x86)\MySQL\Connector J 8.0\ 的目录下。
+
+
+
