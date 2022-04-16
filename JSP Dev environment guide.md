@@ -22,10 +22,13 @@ Web开发分为前端(Browser side)和后端(Server side）两个部分。 其�
 
 要运行Java或是JSP程序，Java的运行环境是必须的。所以第一步就是要安装JDK(Java Development Kit). 很多情况下，你的电脑里已经安装过JDK.如果版本不是很老的话，可以用以前安装过的JDK也可以。 
 
-我们这里还是采用重新安装的最新版本。目前官方JDK最新的版本是JDK18，下载地址是https://www.oracle.com/java/technologies/downloads/#jdk18-windows  下载那个Installer或是MSI Installer就可以，下载后安装即可.
+我们这里还是采用重新安装的最新版本。目前官方JDK最新的版本是JDK18.
 
-注意: 
-* JDK18缺省的安装路径是C:\Program Files\Java\jdk-18.  当然安装到其他路径也可以，但需要记住具体的安装位置，因为后面配置其他软件的时候需要选择JDK的路径。
+#### 下载地址:   https://www.oracle.com/java/technologies/downloads/#jdk18-windows  
+
+下载那个Installer或是MSI Installer就可以，下载后安装即可.
+
+**注意**:  JDK18缺省的安装路径是C:\Program Files\Java\jdk-18.  当然安装到其他路径也可以，但需要记住具体的安装位置，因为后面配置其他软件的时候需要选择JDK的所在的目录。
 
 ## 第二步：安装Tomcat
 
