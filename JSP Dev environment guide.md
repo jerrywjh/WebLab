@@ -34,16 +34,23 @@ JSP需要运行在一个Web服务器的环境中，具体说，需要一个JSP/S
 >  什么是JSP/Servlet的应用服务器？
 >  基本上你可以理解为一个Web服务器+JSP/Servlet的运行环境.
 
-目前最新的版本是10.0，其实8.0，9.0的版本也是可以的。我们这里还是以最新的1.0为例来说明。
-软件下载地址为https://tomcat.apache.org/download-10.cgi  对Windows用户来说，下载那个 32bit/64bit Windows Service Install就可以。
-下载完安装该软件.
+* 版本： Tomcat 9.0. 
+目前最新的Tomcat版本是10.0，但10.0的版本和以前的版本有兼容性问题，把javax.\*的包都改成jakarta.\*的命名了。不建议使用10.0的版本。推荐9.0的版本。
+
+* 下载地址:https://tomcat.apache.org/download-90.cgi 
+对Windows用户来说，下载那个 32bit/64bit Windows Service Install就可以。下载完安装该软件.
 需要注意的是：
 
-* 该软件是服务类软件，是始终运行于电脑后台的。很多同学不太理解 **应用程序**和**服务**这两类软件的区别。
-* 安装过程中有个服务端口(connector Port)的设置，需要你记下来，缺省的应该是8080.
-* 安装过程中还需要选择JDK/JRE的路径，如果缺省的路径不对，你需要手动选择在第一步下载的JDK的安装路径。
+  * 该软件是服务类软件，是始终运行于电脑后台的。
+  * 安装过程中有个服务端口(connector Port)的设置，需要你记下来，缺省的应该是8080.
+  * 安装过程中还需要选择JDK/JRE的路径，如果缺省的路径不对，你需要手动选择在第一步下载的JDK的安装目录。
 
-Tomcat安装成功后，会自动启动服务，你可以在Windows的桌面右下角的系统托盘处找到Apache Tomcat的图标。
+安装完毕后，访问http://localhost:8080, 如能出现 Apache Tomcat的页面，说明安装成功了
+
+如何启动和停止服务：
+  *	安装完毕后，可以在右下角的系统托盘中的Apache Tomcat中来启动/停止/配置Tomcat服务。
+  *	在Windows的服务列表中也可以看到Apache Tomcat, 也可以在Windows Services中进行Tomcat服务的启动和停止。ll  * 也可以运行安装目录中的脚本/批处理文件来启停服务.  startup.bat  shutdown.bat
+
 
 
 ## 第三步： 
