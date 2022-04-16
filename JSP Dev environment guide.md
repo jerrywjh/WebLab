@@ -66,10 +66,8 @@ JSP需要运行在一个Web服务器的环境中，具体说，需要一个JSP/S
 
 **注意**：Eclipse是个通用的IDE，对于JSP开发来说，选择Eclipse IDE for Enterprise and Web Developers的版本。
 
-点击 **Download Packages** -> 选择**Eclipse IDE for Enterprise Java and Web Developers.** -> **Windows x86_64**
-
-下载完毕后，解压缩到一个目录下，就可以直接用了。 一般来讲，可以解压缩到c: \ ,  c:\Program files, 或是个人的用户目录下。
-
-解压缩后运行Eclipse,  开始会提示你设置Workspace, 这个一般建议放到个人的用户主目录下面。
+1. 点击 **Download Packages** -> 选择**Eclipse IDE for Enterprise Java and Web Developers.** -> **Windows x86_64**
+1. 下载完毕后，解压缩到一个目录下，就可以直接用了。 一般来讲，可以解压缩到c: \ ,  c:\Program files, 或是个人的用户目录下。
+1. 解压缩后运行Eclipse,  开始会提示你设置Workspace, 这个一般建议放到个人的用户主目录下面。
 
 
